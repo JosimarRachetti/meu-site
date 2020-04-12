@@ -35,7 +35,7 @@ header{
 #menu a:hover{
 	background-color: rgba(0, 0, 0, 0.80);
 	color: white;
-	border-radius: 50px;
+	height: 100px;
 	} 
 
 body{
@@ -233,8 +233,6 @@ footer{
 }
 
 .imgjogo{
-	border:solid 2px black;
-	border-radius: 10px;
 	margin-top: 50px;
 }
 
