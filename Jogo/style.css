@@ -1,0 +1,13 @@
+body{
+    background-color:white;
+}
+canvas{
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;   
+    margin: auto;
+}
+.NaveJogo{background-image: url(nave2.png);
+    width: 100px ; height: 100px;}
