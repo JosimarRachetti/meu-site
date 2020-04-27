@@ -1,8 +1,15 @@
 #corpohome{
-	/*background-image: linear-gradient(to right, #00cccc, #00ffcc,#99ffcc);*/
+	
     background-image: url(./imagem/fundo6.gif);
     text-align: center;
     background-size:26%;
+    padding-bottom: 10px;
+}
+#corpoindex{
+	/*background-image: linear-gradient(to right, #00cccc, #00ffcc,#99ffcc);*/
+    background-image: url(./fotocircuito.jpg);
+    text-align: center;
+    background-size:100%;
     padding-bottom: 10px;
 }
 
@@ -11,7 +18,7 @@
 .container{
 	width: 1000px;
     margin: auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.664);
     text-align: center;
     font-size: 20px;
     } 
@@ -34,17 +41,11 @@
 
 .linkImagem img:hover{opacity: 0.5;}
 
-nav{width: 1000px;
-    font-size: 20px;
-    font-weight: bold;
-    margin: auto; 
-    text-align:center;
-    background-color: white;
-}
+nav{width: 1000px;font-size: 20px;font-weight: bold;margin: auto;text-align:center;background-color: white;}
 
-nav li{float: left; padding: 0px 85px;} nav ul{list-style-type: none;} nav a{text-decoration: none; color: black;background-color: white; height: 50px; }
+nav li{float: left; padding: 0px 80px;} nav ul{list-style-type: none;} nav a{text-decoration: none; color: black;background-color: white; height: 50px; }
 
-.qualidade{width:300px;float: left;text-align: justify;padding: 15px;margin-bottom: 10px;} .qualidade h4{text-align: center;}
+.qualidade{width:300px;float: left;text-align: justify;padding: 15px;margin: auto;} .qualidade h4{text-align: center;}
 
 h1{padding: 50px; font-size: 50px; clear: both;} h2{padding:20px;}
 
@@ -52,7 +53,6 @@ p{text-align: justify; padding: 30px;}
 
 .imgjogo{ width: 20%; padding-bottom: 30px;} .imgjogo:hover{ width: 40%;}
 
-footer{width: 1000px;margin: auto;background-color: white;} footer p{font-size: medium;font-style: italic; margin-top:10px;text-align: center;padding: 10px;}
 
 .imagemsobre{
     border: solid 0.5px black;
@@ -62,5 +62,30 @@ footer{width: 1000px;margin: auto;background-color: white;} footer p{font-size: 
     box-shadow:         15px 7px 5px rgba(50, 50, 50, 0.77); }
 
 
+    
+#TextoHome{text-align:center;background-color: rgba(0, 0, 0, 0.80);color: white;height: 100%;}
 
+.TituloSobre{clear: both;}
+
+#TextoHome a{text-decoration: none;} #TextoHome h1{font-size: 90px;}
+    
+.linkhome:hover{border: solid 3px white;border-radius: 10px;color: white;}
+
+.linkhome{font-size: 20px; text-align:center; color: white; font-weight: bold;padding: 10px;}
+
+.linkhome h2{font-size: 50px; padding: 0px;}
+
+.imagemhome:hover{ border-color: white;}
+
+#contato{text-align: center;color: white;font-size: 20px;font-weight: bold;clear: both;padding:20px;}
+
+.imagemhome{
+    width: 10%;
+    border: solid 5px rgb(0, 0, 0);
+    border-radius: 200px;
+    float: left;
+    margin: 45px;
+}
+
+footer{width: 1000px;margin: auto;background-color:rgba(255, 255, 255, 0.664);} footer p{font-size: medium;font-style: italic; margin-top:10px;text-align: center;padding: 10px;}
 
